@@ -181,6 +181,7 @@ Halaman ini menampilkan riwayat transaksi peminjaman yang pernah dilakukan oleh 
 - Kartu ringkasan pada Dashboard mengikuti gaya kartu statistik pada halaman Beranda.
 - Form Peminjaman dan Pengembalian mengikuti gaya form Tambah Buku dan Tambah Anggota.
 - Pada tampilan mobile, navigasi menggunakan ikon hamburger seperti yang telah dibuat pada Jobsheet 3.
+
 ## Edge Case
 Beberapa kondisi yang perlu diperhatikan pada implementasi selanjutnya adalah:
 - Buku dengan stok habis tidak dapat dipilih untuk peminjaman.
