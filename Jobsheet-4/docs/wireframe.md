@@ -12,7 +12,7 @@ Halaman yang sudah ada pada SIMPUS-Mini, yaitu Beranda, Daftar Buku, Tambah Buku
 
 ## User Flow - Peminjaman Buku
 
-[Petugas Login] -> [Dashboard] -> [Pilih Menu "Peminjaman Baru"]
+[Petugas Login] -> [ Dashboard ] -> [Pilih Menu "Peminjaman Baru"]
     -> [Pilih Anggota] -> [Pilih Buku]
     -> [Cek Stok Buku]
     -> [Simpan Peminjaman]
@@ -23,7 +23,7 @@ Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 
 ## User Flow - Pengembalian Buku
 
-[Dashboard] -> [Menu "Pengembalian"]
+[ Dashboard ] -> [Menu "Pengembalian"]
     -> [Cari Transaksi Aktif]
     -> [Pilih Data Peminjaman]
     -> [Tandai "Dikembalikan"]
@@ -39,11 +39,11 @@ Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 |                Login Petugas                  |
 |                                               |
 |                                               |
-|       Username    : [_________________]       |
-|       Password    : [_________________]       |
+|       Username    : [ _________________ ]     |
+|       Password    : [ _________________ ]     |
 |                                               |
 |                                               |
-|                   [Masuk]                     |
+|                   [ Masuk ]                   |
 |                                               |
 |                                               |
 |       Belum punya akun? Daftar di sini        |
@@ -67,15 +67,15 @@ Halaman Login digunakan oleh petugas untuk masuk ke dalam sistem dan mengakses f
 | SIMPUS-Mini | Buku | Anggota | Peminjaman | Logout |
 |----------------------------------------------------|
 |                                                    |
-|      [Total Buku] [Total Anggota] [Dipinjam]       |
+|    [ Total Buku ] [ Total Anggota ] [ Dipinjam ]   |
 |                                                    |
-|      Aksi Cepat:                                   |
+|    Aksi Cepat:                                     |
 |                                                    |
-|      [ + Peminjaman Baru] [ + Pengembalian]        |
+|    [ + Peminjaman Baru ] [ + Pengembalian ]        |
 |                                                    |
-|      Transaksi Terbaru                             |
-|      -------------------------------------------   |
-|       Anggota | Buku | Tanggal Pinjam | Status     |
+|    Transaksi Terbaru                               |
+|    -------------------------------------------     |
+|     Anggota | Buku | Tanggal Pinjam | Status       |
 |                                                    |
 +----------------------------------------------------+
 
@@ -96,6 +96,7 @@ Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi
 | Tabel Transaksi Terbaru | Menampilkan transaksi peminjaman terbaru |
 
 ## Wireframe: Form Peminjaman
+
 +----------------------------------------------------+
 |               Form Peminjaman Buku                 |
 |----------------------------------------------------|
@@ -105,7 +106,7 @@ Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi
 |                                                    |
 |      Tanggal Pinjam   : [Hari Ini]                 |
 |                                                    |
-|               [ Simpan Peminjaman]                 |
+|               [ Simpan Peminjaman ]                |
 |                                                    |
 +----------------------------------------------------+
 
@@ -121,6 +122,7 @@ Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota
 | Tombol Simpan Peminjaman | Menyimpan data transaksi peminjaman |
 
 ## Wireframe: Form Pengembalian
+
 +----------------------------------------------------+
 |                 Pengembalian Buku                  |
 |----------------------------------------------------|
@@ -130,7 +132,7 @@ Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota
 |                                                    |
 | Anggota | Buku | Tanggal Pinjam | Status           |
 | -------------------------------------------        |
-| Siti    | Laskar Pelangi  | 01/07 | [Kembali]      |
+| Siti    | Laskar Pelangi  | 01/07 | [ Kembali ]    |
 |                                                    |
 +----------------------------------------------------+
 
