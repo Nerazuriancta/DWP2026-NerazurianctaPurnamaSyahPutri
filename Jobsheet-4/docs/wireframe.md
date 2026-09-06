@@ -31,7 +31,7 @@ Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
     -> [Kembali ke Dashboard]
 
 ## Wireframe: Halaman Login
-
+```text
 +-----------------------------------------------+
 |                 SIMPUS-Mini                   |
 |-----------------------------------------------|
@@ -48,6 +48,7 @@ Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 |                                               |
 |       Belum punya akun? Daftar di sini        |
 +-----------------------------------------------+
+```
 
 Halaman Login digunakan oleh petugas untuk masuk ke dalam sistem dan mengakses fitur pengelolaan perpustakaan.
 ### Komponen Halaman Login
@@ -62,7 +63,7 @@ Halaman Login digunakan oleh petugas untuk masuk ke dalam sistem dan mengakses f
 | Tautan "Daftar di sini" | Mengarahkan pengguna ke halaman pendaftaran akun |
 
 ## Wireframe: Dashboard Petugas
-
+```text
 +----------------------------------------------------+
 | SIMPUS-Mini | Buku | Anggota | Peminjaman | Logout |
 |----------------------------------------------------|
@@ -78,6 +79,7 @@ Halaman Login digunakan oleh petugas untuk masuk ke dalam sistem dan mengakses f
 |     Anggota | Buku | Tanggal Pinjam | Status       |
 |                                                    |
 +----------------------------------------------------+
+```
 
 Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi, serta daftar transaksi terbaru.
 ### Komponen Dashboard Petugas
@@ -96,7 +98,7 @@ Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi
 | Tabel Transaksi Terbaru | Menampilkan transaksi peminjaman terbaru |
 
 ## Wireframe: Form Peminjaman
-
+```text
 +----------------------------------------------------+
 |               Form Peminjaman Buku                 |
 |----------------------------------------------------|
@@ -109,6 +111,7 @@ Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi
 |               [ Simpan Peminjaman ]                |
 |                                                    |
 +----------------------------------------------------+
+```
 
 Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota.
 ### Komponen Form Peminjaman
@@ -122,7 +125,7 @@ Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota
 | Tombol Simpan Peminjaman | Menyimpan data transaksi peminjaman |
 
 ## Wireframe: Form Pengembalian
-
+```text
 +----------------------------------------------------+
 |                 Pengembalian Buku                  |
 |----------------------------------------------------|
@@ -135,6 +138,7 @@ Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota
 | Siti    | Laskar Pelangi  | 01/07 | [ Kembali ]    |
 |                                                    |
 +----------------------------------------------------+
+```
 
 Halaman ini digunakan untuk mencari transaksi peminjaman yang masih aktif dan meproses pengembalian buku.
 ### Komponen Form Pengembalian
@@ -149,6 +153,7 @@ Halaman ini digunakan untuk mencari transaksi peminjaman yang masih aktif dan me
 | Tombol Kembalikan | Digunakan untuk memproses pengembalian buku |
 
 ## Wireframe: Riwayat Peminjaman per Anggita
+```text
 +----------------------------------------------------+
 |         Riwayat Peminjaman - Nama Anggota          |
 |----------------------------------------------------|
@@ -161,6 +166,7 @@ Halaman ini digunakan untuk mencari transaksi peminjaman yang masih aktif dan me
 | -------------------------------------------------- |
 |                                                    |
 +----------------------------------------------------+
+```
 
 Halaman ini menampilkan riwayat transaksi peminjaman yang pernah dilakukan oleh seorang anggota.
 ### Komponen Riwayat Peminjaman
