@@ -186,5 +186,6 @@ Beberapa kondisi yang perlu diperhatikan pada implementasi selanjutnya adalah:
 - Buku dengan stok habis tidak dapat dipilih untuk peminjaman.
 - Anggota yang memiliki tunggakan perlu mendapatkan validasi sebelum melakukan peminjaman.
 - Transaksi pengembalian hanya dapat dilakukan pada data peminjaman yang masih aktif.
+
 ## Kesimpulan
 Jobsheet 4 berfokus pada perancangan UI/UX SIMPUS-Mini sebelum fitur interaktif dan database diimplementasikan. User flow digunakan untuk menggambarkan alur peminjaman dan pengembalian buku, sedangkan wireframe digunakan sebagai rancangan awal struktur setiap halaman. Setiap wireframe terdiri dari komponen-komponen yang dirancang sesuai dengan fungsi halaman. Rancangan ini akan menjadi acuan dalam pengembangan fitur Login, Dashboard Petugas, Peminjaman, Pengembalian, dan Riwayat Peminjaman pada Jobsheet berikutnya.
