@@ -11,7 +11,7 @@ Halaman yang sudah ada pada SIMPUS-Mini, yaitu Beranda, Daftar Buku, Tambah Buku
 - Petugas   : harus melakukan login untuk mengakses fitur pengelolaan data dan transaksi perpustakaan.
 
 ## User Flow - Peminjaman Buku
-```text
+```
 [Petugas Login] -> [ Dashboard ] -> [Pilih Menu "Peminjaman Baru"]
     -> [Pilih Anggota] -> [Pilih Buku]
     -> [Cek Stok Buku]
@@ -23,7 +23,7 @@ Halaman yang sudah ada pada SIMPUS-Mini, yaitu Beranda, Daftar Buku, Tambah Buku
 Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 
 ## User Flow - Pengembalian Buku
-```text
+```
 [ Dashboard ] -> [Menu "Pengembalian"]
     -> [Cari Transaksi Aktif]
     -> [Pilih Data Peminjaman]
@@ -33,7 +33,7 @@ Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 ```
 
 ## Wireframe: Halaman Login
-```text
+```
 +-----------------------------------------------+
 |                 SIMPUS-Mini                   |
 |-----------------------------------------------|
@@ -65,7 +65,7 @@ Halaman Login digunakan oleh petugas untuk masuk ke dalam sistem dan mengakses f
 | Tautan "Daftar di sini" | Mengarahkan pengguna ke halaman pendaftaran akun |
 
 ## Wireframe: Dashboard Petugas
-```text
+```
 +----------------------------------------------------+
 | SIMPUS-Mini | Buku | Anggota | Peminjaman | Logout |
 |----------------------------------------------------|
@@ -100,7 +100,7 @@ Dashboard menampilkan informasi ringkasan perpustakaan, shortcut untuk transaksi
 | Tabel Transaksi Terbaru | Menampilkan transaksi peminjaman terbaru |
 
 ## Wireframe: Form Peminjaman
-```text
+```
 +----------------------------------------------------+
 |               Form Peminjaman Buku                 |
 |----------------------------------------------------|
@@ -127,7 +127,7 @@ Form ini digunakan petugas untuk mencatat transaksi peminjaman buku oleh anggota
 | Tombol Simpan Peminjaman | Menyimpan data transaksi peminjaman |
 
 ## Wireframe: Form Pengembalian
-```text
+```
 +----------------------------------------------------+
 |                 Pengembalian Buku                  |
 |----------------------------------------------------|
@@ -155,7 +155,7 @@ Halaman ini digunakan untuk mencari transaksi peminjaman yang masih aktif dan me
 | Tombol Kembalikan | Digunakan untuk memproses pengembalian buku |
 
 ## Wireframe: Riwayat Peminjaman per Anggita
-```text
+```
 +----------------------------------------------------+
 |         Riwayat Peminjaman - Nama Anggota          |
 |----------------------------------------------------|
