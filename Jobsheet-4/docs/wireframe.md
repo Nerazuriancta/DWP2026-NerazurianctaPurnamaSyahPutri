@@ -11,24 +11,26 @@ Halaman yang sudah ada pada SIMPUS-Mini, yaitu Beranda, Daftar Buku, Tambah Buku
 - Petugas   : harus melakukan login untuk mengakses fitur pengelolaan data dan transaksi perpustakaan.
 
 ## User Flow - Peminjaman Buku
-
+```text
 [Petugas Login] -> [ Dashboard ] -> [Pilih Menu "Peminjaman Baru"]
     -> [Pilih Anggota] -> [Pilih Buku]
     -> [Cek Stok Buku]
     -> [Simpan Peminjaman]
     -> [Stok Buku Berkurang]
     -> [Kembali ke Dashboard]
+```
 
 Jika stok buku habis, buku tidak dapat dipilih untuk melakukan peminjaman.
 
 ## User Flow - Pengembalian Buku
-
+```text
 [ Dashboard ] -> [Menu "Pengembalian"]
     -> [Cari Transaksi Aktif]
     -> [Pilih Data Peminjaman]
     -> [Tandai "Dikembalikan"]
     -> [Stok Buku Bertambah]
     -> [Kembali ke Dashboard]
+```
 
 ## Wireframe: Halaman Login
 ```text
