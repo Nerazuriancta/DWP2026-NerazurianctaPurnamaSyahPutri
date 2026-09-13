@@ -247,7 +247,7 @@ footer {
         margin-top: 1rem;
     }
 
-    .nav-toggle:nav-open {
+    header nav.nav-open {
         display: block;
     }
 
