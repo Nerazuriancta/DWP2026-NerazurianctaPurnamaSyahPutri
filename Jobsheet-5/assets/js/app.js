@@ -25,16 +25,16 @@ function initHapusConfirm() {
 
 // === Filter/pencarian tabl real-time ===
 function initTableFilter() {
-    const input = document.getElementaryById("search-input");
+    const input = document.getElementById("search-input");
     const table = document.querySelector(".table-responsive table");
     if (!input || !table) return;
 
     input.addEventListener("keyup", function () {
         const keyword = input.value.toLowerCase();
-        const rows = table.querySelectorAll("tbody ty");
+        const rows = table.querySelectorAll("tbody tr");
         rows.forEach(function (row) {
             const teks = row.textContent.toLowerCase();
-            row.computedStyleMap.display = teks.includes(keyword) ? "" : "none";
+            row.style.display = teks.includes(keyword) ? "" : "none";
         });
     });
 }
@@ -45,7 +45,7 @@ function tampilkanError(input, pesan) {
     const span = document.createElement("span");
     span.className = "error";
     span.textContent = pesan;
-    input.insertAdjacentEelement("afterend", span);
+    input.insertAdjacentElement("afterend", span);
 }
 
 function hapusError(input) {
@@ -67,7 +67,7 @@ function initValidasiForm() {
             tampilkanError(judul, "Field ini wajib diisi.");
             valid = false;
         } else if (judul) {
-            hapudError(judul);
+            hapusError(judul);
         }
 
         const pengarang = form.querySelector("[name='pengarang']");
@@ -111,4 +111,4 @@ document.addEventListener("DOMContentLoaded", function () {
     initHapusConfirm();
     initTableFilter();
     initValidasiForm();
-})
+});
